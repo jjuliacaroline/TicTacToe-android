@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/highscore_list"
+        android:layout_width="match_parent"
+        android:layout_height="499dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/list_view_drawable"
+        android:padding="36dp"
+        >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/highscore_bar_activity"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Highscores"
+        android:textColor="@color/white"
+        android:background="#0066FF"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/highscore_list"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_below="@id/highscore_bar_activity"
+        >
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/highscore_list"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="PLAYER"
+            android:layout_weight="0.5"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:id="@+id/player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/highscore_list"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="SCORE"
+            android:textSize="18dp"
+            android:layout_weight="0.5"/>
+    </LinearLayout>
+
+</RelativeLayout>

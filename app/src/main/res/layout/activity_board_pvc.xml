@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@drawable/pvc_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/whose_turn_pvc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:paddingTop="15dp"
+            android:paddingBottom="10dp"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_00"
+            android:layout_weight="1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:textSize="60sp"
+            android:background="@drawable/my_board_button_pvc"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/btn_01"
+            android:layout_weight="1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:textSize="60sp"
+            android:background="@drawable/my_board_button_pvc"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/btn_02"
+            android:layout_weight="1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:textSize="60sp"
+            android:background="@drawable/my_board_button_pvc"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_10"
+            android:layout_weight="1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:textSize="60sp"
+            android:background="@drawable/my_board_button_pvc"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/btn_11"
+            android:layout_weight="1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:textSize="60sp"
+            android:background="@drawable/my_board_button_pvc"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/btn_12"
+            android:layout_weight="1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:textSize="60sp"
+            android:background="@drawable/my_board_button_pvc"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_20"
+            android:layout_weight="1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:textSize="60sp"
+            android:background="@drawable/my_board_button_pvc"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/btn_21"
+            android:layout_weight="1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:textSize="60sp"
+            android:background="@drawable/my_board_button_pvc"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/btn_22"
+            android:layout_weight="1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:textSize="60sp"
+            android:background="@drawable/my_board_button_pvc"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
