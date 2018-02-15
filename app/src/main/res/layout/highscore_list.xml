@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:gravity="center_horizontal|center_vertical"
-        android:text="Highscores"
+        android:text="High scores"
         android:textColor="@color/white"
         android:background="#0066FF"
         android:layout_alignParentTop="true"

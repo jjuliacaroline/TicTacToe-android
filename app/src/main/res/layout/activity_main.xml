@@ -56,7 +56,7 @@
         android:layout_marginBottom="129dp"
         android:layout_weight="1"
         android:background="@drawable/my_button"
-        android:text="Highscores"
+        android:text="High scores"
 
         />
 
